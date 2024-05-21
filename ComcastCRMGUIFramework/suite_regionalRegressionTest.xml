@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.comcasr.crm.orgtest.DeleteOrgTest"/>
+      <class name="com.comcasr.crm.orgtest.CreateOrganizationWithPhoneNoTest"/>
+      <class name="com.comcast.crm.contacttest.CreateContactTest"/>
+      <class name="com.comcast.crm.contacttest.CreateContactWithOrganizationTest"/>
+      <class name="com.comcast.crm.contacttest.Contacts_With_StratsDateAndEndDate"/>
+      <class name="com.comcasr.crm.orgtest.CreateOrganizationTest"/>
+      <class name="com.comcasr.crm.orgtest.CreateOrganizationWithDropDownTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
