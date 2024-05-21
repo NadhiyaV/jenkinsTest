@@ -13,6 +13,7 @@ public class HomePage {
 	}
 	@FindBy(linkText = "Products")
 	private WebElement productlink;
+	
 	public WebElement getProductlink() {
 		return productlink;
 	}
