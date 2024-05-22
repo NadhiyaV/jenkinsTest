@@ -3,7 +3,9 @@
 <suite thread-count="5" parallel="tests" name="Suite">
 
   <test name="TestRunner-Firefox">
+	  
 	  <parameter name="BROWSER" value="edge"></parameter>
+	 
     <classes>
    <!--    <class name="practiceComCast.createContactsTest"/>-->
       <class name="practiceComCast.createOrganizationsTest"/>

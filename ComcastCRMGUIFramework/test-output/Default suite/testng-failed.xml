@@ -9,7 +9,6 @@
           <include name="tologintoapp"/>
           <include name="toQuittheBrowser"/>
           <include name="getConnectionWithDB"/>
-          <include name="createContactsWithOrganizationTest"/>
           <include name="logoutofapp"/>
           <include name="closeConnectionWithDB"/>
           <include name="toLaunchBrowser"/>

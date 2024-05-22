@@ -55,7 +55,7 @@ public class BaseClass {
 		dblib.closeConnection();
 		
 	}
-	//@Parameters("BROWSER")
+	//@Parameters(BROWSER)
 	@BeforeClass(groups = {"smokeTest" , "regressionTest" })
 	public void toLaunchBrowser(/*String browser*/) throws IOException {
 		System.out.println("===============To Launch Browser===========");
