@@ -11,8 +11,8 @@ public class CreateNewContactsPage {
 	}
 	@FindBy(xpath="//img[@alt='Create Contact...']")
 	private WebElement lookupimage;
-	@FindBy(xpath="//input[@name='lastname']")
-	//@FindBy(name="lastname")
+	//@FindBy(xpath="//input[@name='lastname']")
+	@FindBy(name="lastname")
 	private WebElement contactname;
 	@FindBy(xpath="(//input[@title='Save [Alt+S]'])[1]")
 	private WebElement savebutton;

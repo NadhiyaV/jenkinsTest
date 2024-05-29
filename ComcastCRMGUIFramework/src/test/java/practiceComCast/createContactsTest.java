@@ -18,13 +18,16 @@ import com.comcast.crm.objectrepositoryutility.OrganizationsSearchPage;
 public class createContactsTest extends BaseClass{
 
 	@Test(groups="smokeTest")
+	
 	public void createContactTest() throws IOException {
 		//create Object
 		String CONTACTNAME = elib.getDatafromExcel("CONTACT", 1, 2)+jlib.getRandomNumber();
 		//String CONTACTNAME = elib.getDatafromExcel("CONTACT", 1, 2) + jlib.getRandomNumber();
 		HomePage hp= new HomePage(driver);
 		hp.getContactsLink().click();
+	
 		CreateNewContactsPage cncp= new CreateNewContactsPage(driver);
+		cncp.getLookupimage().click();
 		cncp.getContactname().sendKeys(CONTACTNAME);
 		cncp.getSavebutton().click();
 		
